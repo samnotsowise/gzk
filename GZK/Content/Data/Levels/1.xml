@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Level 1 Data File -->
+<Level>
+  <!--
+  ~~Format~~
+  
+  ~Scenery:
+  
+  <Scenery>
+    <name>TextureName</name>
+    <pX>int</pX>
+    <pY>int</pY>
+    <width>int</width>
+    <height>int</height>
+    <layer>float[0-1] (0 = front; 1 = back)</layer>
+    <obstructive>bool</obstructive>
+    <destructible>bool</destructible>
+  </Scenery>
+  
+  ~Target:
+  
+  <Target>
+    <name>zombie/bonus/agent</name>
+    <pX>int</pX>
+    <pY>int</pY>
+    <width>int</width>
+    <height>int</height>
+    <layer>float[0-1] (0 = front; 1 = back)</layer>
+  </Target>
+  
+  -->
+  
+  <Scenery>
+    <name>Building</name>
+    <pX>540</pX>
+    <pY>114</pY>
+    <width>260</width>
+    <height>110</height>
+    <layer>0.7</layer>
+    <obstructive>true</obstructive>
+    <destructible>false</destructible>
+  </Scenery>
+  <Scenery>
+    <name>Light</name>
+    <pX>505</pX>
+    <pY>130</pY>
+    <width>67</width>
+    <height>117</height>
+    <layer>0.69</layer>
+    <obstructive>false</obstructive>
+    <destructible>false</destructible>
+  </Scenery>
+  <Scenery>
+    <name>Tree</name>
+    <pX>0</pX>
+    <pY>172</pY>
+    <width>155</width>
+    <height>321</height>
+    <layer>0.2</layer>
+    <obstructive>false</obstructive>
+    <destructible>false</destructible>
+  </Scenery>
+  <Scenery>
+    <name>Trunk</name>
+    <pX>12</pX>
+    <pY>373</pY>
+    <width>51</width>
+    <height>120</height>
+    <layer>0.2</layer>
+    <obstructive>true</obstructive>
+    <destructible>false</destructible>
+  </Scenery>
+  
+  <Target>
+    <name>zombie</name>
+    <pX>-60</pX>
+    <pY>140</pY>
+    <width>60</width>
+    <height>72</height>
+    <layer>0.8</layer>
+  </Target>
+  <Target>
+    <name>zombie</name>
+    <pX>800</pX>
+    <pY>140</pY>
+    <width>60</width>
+    <height>72</height>
+    <layer>0.8</layer>
+  </Target>
+  <Target>
+    <name>zombie</name>
+    <pX>800</pX>
+    <pY>215</pY>
+    <width>89</width>
+    <height>106</height>
+    <layer>0.6</layer>
+  </Target>
+  <Target>
+    <name>zombie</name>
+    <pX>-103</pX>
+    <pY>255</pY>
+    <width>103</width>
+    <height>123</height>
+    <layer>0.5</layer>
+  </Target>
+  <Target>
+    <name>zombie</name>
+    <pX>800</pX>
+    <pY>256</pY>
+    <width>103</width>
+    <height>123</height>
+    <layer>0.49</layer>
+  </Target>
+  <Target>
+    <name>zombie</name>
+    <pX>800</pX>
+    <pY>340</pY>
+    <width>117</width>
+    <height>139</height>
+    <layer>0.4</layer>
+  </Target>
+  <Target>
+    <name>zombie</name>
+    <pX>-117</pX>
+    <pY>341</pY>
+    <width>117</width>
+    <height>139</height>
+    <layer>0.39</layer>
+  </Target>
+  <Target>
+    <name>bonus</name>
+    <pX>628</pX>
+    <pY>182</pY>
+    <width>37</width>
+    <height>45</height>
+    <layer>0.39</layer>
+  </Target>
+</Level>
