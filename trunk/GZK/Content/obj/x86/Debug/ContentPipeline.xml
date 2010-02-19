@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sounds\Click1.mp3</Source>
+      <Name>Sounds\Click1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Click1.xnb</Output>
+      <Time>2009-11-26T11:48:36.7964587+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Music.mp3</Source>
+      <Name>Sounds\Music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Music.xnb</Output>
+      <Extra>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Music.wma</Extra>
+      <Time>2009-11-26T11:48:36.7964587+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Global\mouse.png</Source>
+      <Name>Textures\Global\mouse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Global\mouse.xnb</Output>
+      <Time>2009-11-26T11:49:12.302121+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Global\mouseClick.png</Source>
+      <Name>Textures\Global\mouseClick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Global\mouseClick.xnb</Output>
+      <Time>2009-11-26T11:49:12.302121+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Menu\logo.png</Source>
+      <Name>Textures\Menu\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Menu\logo.xnb</Output>
+      <Time>2009-12-01T11:09:34.8783258+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Menu\background.jpg</Source>
+      <Name>Textures\Menu\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Menu\background.xnb</Output>
+      <Time>2009-12-01T11:25:34.7347018+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\about\about.jpg</Source>
+      <Name>Textures\Buttons\about\about</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\about\about.xnb</Output>
+      <Time>2009-12-01T12:26:30.8358023+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\about\aboutDown.jpg</Source>
+      <Name>Textures\Buttons\about\aboutDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\about\aboutDown.xnb</Output>
+      <Time>2009-12-01T12:26:30.8358023+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\about\aboutOver.jpg</Source>
+      <Name>Textures\Buttons\about\aboutOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\about\aboutOver.xnb</Output>
+      <Time>2009-12-01T12:26:30.8358023+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\start\start.jpg</Source>
+      <Name>Textures\Buttons\start\start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\start\start.xnb</Output>
+      <Time>2009-12-01T15:17:37.0382069+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\start\startDown.jpg</Source>
+      <Name>Textures\Buttons\start\startDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\start\startDown.xnb</Output>
+      <Time>2009-12-01T15:17:37.039207+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\start\startOver.jpg</Source>
+      <Name>Textures\Buttons\start\startOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\start\startOver.xnb</Output>
+      <Time>2009-12-01T15:17:37.0412071+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\pause\pause.jpg</Source>
+      <Name>Textures\Buttons\pause\pause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\pause\pause.xnb</Output>
+      <Time>2009-12-01T15:33:08.6194903+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\pause\pauseDown.jpg</Source>
+      <Name>Textures\Buttons\pause\pauseDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\pause\pauseDown.xnb</Output>
+      <Time>2009-12-01T15:33:08.6214905+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\pause\pauseOver.jpg</Source>
+      <Name>Textures\Buttons\pause\pauseOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\pause\pauseOver.xnb</Output>
+      <Time>2009-12-01T15:33:08.6224905+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\volume\volume.jpg</Source>
+      <Name>Textures\Buttons\volume\volume</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\volume\volume.xnb</Output>
+      <Time>2009-12-01T15:33:08.6234906+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\volume\volumeDown.jpg</Source>
+      <Name>Textures\Buttons\volume\volumeDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\volume\volumeDown.xnb</Output>
+      <Time>2009-12-01T15:33:08.6244906+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\volume\volumeOver.jpg</Source>
+      <Name>Textures\Buttons\volume\volumeOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\volume\volumeOver.xnb</Output>
+      <Time>2009-12-01T15:33:08.6254907+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\close\close.jpg</Source>
+      <Name>Textures\Buttons\close\close</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\close\close.xnb</Output>
+      <Time>2009-12-01T16:24:36.0377852+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\close\closeDown.jpg</Source>
+      <Name>Textures\Buttons\close\closeDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\close\closeDown.xnb</Output>
+      <Time>2009-12-01T16:24:36.0533852+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\close\closeOver.jpg</Source>
+      <Name>Textures\Buttons\close\closeOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\close\closeOver.xnb</Output>
+      <Time>2009-12-01T16:24:36.0533852+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\difficulty\difficulty.jpg</Source>
+      <Name>Textures\Buttons\difficulty\difficulty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\difficulty\difficulty.xnb</Output>
+      <Time>2009-12-01T16:24:36.0533852+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\difficulty\difficultyDown.jpg</Source>
+      <Name>Textures\Buttons\difficulty\difficultyDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\difficulty\difficultyDown.xnb</Output>
+      <Time>2009-12-01T16:24:36.0533852+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\difficulty\difficultyOver.jpg</Source>
+      <Name>Textures\Buttons\difficulty\difficultyOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\difficulty\difficultyOver.xnb</Output>
+      <Time>2009-12-01T16:24:36.0533852+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Click2.mp3</Source>
+      <Name>Sounds\Click2</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Click2.xnb</Output>
+      <Time>2009-11-26T11:48:36.7964587+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Menu\about.jpg</Source>
+      <Name>Textures\Menu\about</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Menu\about.xnb</Output>
+      <Time>2009-12-08T14:38:27.2914608+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Menu\difficulty.jpg</Source>
+      <Name>Textures\Menu\difficulty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Menu\difficulty.xnb</Output>
+      <Time>2009-12-08T14:36:03.2042194+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Easy\Easy.jpg</Source>
+      <Name>Textures\Buttons\Easy\Easy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Easy\Easy.xnb</Output>
+      <Time>2009-12-08T13:16:34.9570251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Easy\EasyDown.jpg</Source>
+      <Name>Textures\Buttons\Easy\EasyDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Easy\EasyDown.xnb</Output>
+      <Time>2009-12-08T13:16:34.9570251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Easy\EasyOver.jpg</Source>
+      <Name>Textures\Buttons\Easy\EasyOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Easy\EasyOver.xnb</Output>
+      <Time>2009-12-08T13:16:34.9570251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Hard\Hard.jpg</Source>
+      <Name>Textures\Buttons\Hard\Hard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Hard\Hard.xnb</Output>
+      <Time>2009-12-08T13:16:34.9726251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Hard\HardDown.jpg</Source>
+      <Name>Textures\Buttons\Hard\HardDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Hard\HardDown.xnb</Output>
+      <Time>2009-12-08T13:16:34.9726251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Hard\HardOver.jpg</Source>
+      <Name>Textures\Buttons\Hard\HardOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Hard\HardOver.xnb</Output>
+      <Time>2009-12-08T13:16:34.9726251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Normal\Normal.jpg</Source>
+      <Name>Textures\Buttons\Normal\Normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Normal\Normal.xnb</Output>
+      <Time>2009-12-08T13:16:34.9726251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Normal\NormalDown.jpg</Source>
+      <Name>Textures\Buttons\Normal\NormalDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Normal\NormalDown.xnb</Output>
+      <Time>2009-12-08T13:16:34.9726251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Buttons\Normal\NormalOver.jpg</Source>
+      <Name>Textures\Buttons\Normal\NormalOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Buttons\Normal\NormalOver.xnb</Output>
+      <Time>2009-12-08T13:16:34.9726251+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\1\splashScreen.png</Source>
+      <Name>Textures\Levels\1\splashScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\1\splashScreen.xnb</Output>
+      <Time>2009-12-08T16:28:18.3064453+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\1\background.png</Source>
+      <Name>Textures\Levels\1\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\1\background.xnb</Output>
+      <Time>2009-12-09T12:24:20.1259315+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\1\building.png</Source>
+      <Name>Textures\Levels\1\building</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\1\building.xnb</Output>
+      <Time>2009-12-10T15:48:52.7422156+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\1\light.png</Source>
+      <Name>Textures\Levels\1\light</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\1\light.xnb</Output>
+      <Time>2009-12-10T17:20:48.1596795+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\1\tree.png</Source>
+      <Name>Textures\Levels\1\tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\1\tree.xnb</Output>
+      <Time>2009-12-10T17:30:49.1620548+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\0.png</Source>
+      <Name>Textures\Targets\Zombie\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\0.xnb</Output>
+      <Time>2009-12-16T17:20:09.0321644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\1.png</Source>
+      <Name>Textures\Targets\Zombie\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\1.xnb</Output>
+      <Time>2009-12-16T17:20:09.0321644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\10.png</Source>
+      <Name>Textures\Targets\Zombie\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\10.xnb</Output>
+      <Time>2009-12-16T17:20:09.0321644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\11.png</Source>
+      <Name>Textures\Targets\Zombie\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\11.xnb</Output>
+      <Time>2009-12-16T17:20:09.0321644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\12.png</Source>
+      <Name>Textures\Targets\Zombie\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\12.xnb</Output>
+      <Time>2009-12-16T17:20:09.0321644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\13.png</Source>
+      <Name>Textures\Targets\Zombie\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\13.xnb</Output>
+      <Time>2009-12-16T17:20:09.0321644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\14.png</Source>
+      <Name>Textures\Targets\Zombie\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\14.xnb</Output>
+      <Time>2009-12-16T17:20:09.0321644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\15.png</Source>
+      <Name>Textures\Targets\Zombie\15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\15.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\16.png</Source>
+      <Name>Textures\Targets\Zombie\16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\16.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\2.png</Source>
+      <Name>Textures\Targets\Zombie\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\2.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\3.png</Source>
+      <Name>Textures\Targets\Zombie\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\3.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\4.png</Source>
+      <Name>Textures\Targets\Zombie\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\4.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\5.png</Source>
+      <Name>Textures\Targets\Zombie\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\5.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\6.png</Source>
+      <Name>Textures\Targets\Zombie\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\6.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\7.png</Source>
+      <Name>Textures\Targets\Zombie\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\7.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\8.png</Source>
+      <Name>Textures\Targets\Zombie\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\8.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\9.png</Source>
+      <Name>Textures\Targets\Zombie\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\9.xnb</Output>
+      <Time>2009-12-16T17:20:09.0477644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\17.png</Source>
+      <Name>Textures\Targets\Zombie\17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\17.xnb</Output>
+      <Time>2009-12-16T17:30:44.0294939+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\18.png</Source>
+      <Name>Textures\Targets\Zombie\18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\18.xnb</Output>
+      <Time>2009-12-16T17:30:44.0294939+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\19.png</Source>
+      <Name>Textures\Targets\Zombie\19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\19.xnb</Output>
+      <Time>2009-12-16T17:30:44.0294939+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Zombie\20.png</Source>
+      <Name>Textures\Targets\Zombie\20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Zombie\20.xnb</Output>
+      <Time>2009-12-16T17:30:44.0294939+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Global\Indicator.png</Source>
+      <Name>Textures\Global\Indicator</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Global\Indicator.xnb</Output>
+      <Time>2009-12-16T17:46:10.3669422+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Global\ControlBar.png</Source>
+      <Name>Textures\Global\ControlBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Global\ControlBar.xnb</Output>
+      <Time>2009-12-16T18:50:47.4921958+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\2\background.png</Source>
+      <Name>Textures\Levels\2\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\2\background.xnb</Output>
+      <Time>2009-12-17T16:24:08.1962105+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\2\splashScreen.png</Source>
+      <Name>Textures\Levels\2\splashScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\2\splashScreen.xnb</Output>
+      <Time>2009-12-17T16:24:08.1982106+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Ninja Naruto.spritefont</Source>
+      <Name>Ninja Naruto</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Ninja Naruto.xnb</Output>
+      <Time>2009-12-17T13:48:28.9790378+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Death1.mp3</Source>
+      <Name>Sounds\Death1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Death1.xnb</Output>
+      <Time>2009-12-17T14:05:13.8085108+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Death2.mp3</Source>
+      <Name>Sounds\Death2</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Death2.xnb</Output>
+      <Time>2009-12-17T14:05:13.8105109+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\1\Trunk.png</Source>
+      <Name>Textures\Levels\1\Trunk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\1\Trunk.xnb</Output>
+      <Time>2009-12-17T14:57:50.3630554+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\2\Post.png</Source>
+      <Name>Textures\Levels\2\Post</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\2\Post.xnb</Output>
+      <Time>2009-12-17T16:46:11.8559195+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\2\Sign.png</Source>
+      <Name>Textures\Levels\2\Sign</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\2\Sign.xnb</Output>
+      <Time>2009-12-17T16:46:11.8579196+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\2\Truck.png</Source>
+      <Name>Textures\Levels\2\Truck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\2\Truck.xnb</Output>
+      <Time>2009-12-17T16:46:11.8549195+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\2\Signpost.png</Source>
+      <Name>Textures\Levels\2\Signpost</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\2\Signpost.xnb</Output>
+      <Time>2009-12-17T16:49:15.0683987+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Global\Paused.png</Source>
+      <Name>Textures\Global\Paused</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Global\Paused.xnb</Output>
+      <Time>2009-12-17T17:12:16.6374199+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Global\Zimmer.png</Source>
+      <Name>Textures\Global\Zimmer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Global\Zimmer.xnb</Output>
+      <Time>2009-12-17T22:30:26.802434+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\3\Background.png</Source>
+      <Name>Textures\Levels\3\Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\3\Background.xnb</Output>
+      <Time>2009-12-18T09:21:25.0736522+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\3\Crypt.png</Source>
+      <Name>Textures\Levels\3\Crypt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\3\Crypt.xnb</Output>
+      <Time>2009-12-18T09:21:25.0892523+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\3\Grave.png</Source>
+      <Name>Textures\Levels\3\Grave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\3\Grave.xnb</Output>
+      <Time>2009-12-18T09:21:25.0892523+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Levels\3\Splashscreen.png</Source>
+      <Name>Textures\Levels\3\Splashscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Levels\3\Splashscreen.xnb</Output>
+      <Time>2009-12-18T09:21:25.0892523+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\0.png</Source>
+      <Name>Textures\Targets\Agent\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\0.xnb</Output>
+      <Time>2009-12-18T12:14:53.5288213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\1.png</Source>
+      <Name>Textures\Targets\Agent\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\1.xnb</Output>
+      <Time>2009-12-18T12:14:53.5288213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\2.png</Source>
+      <Name>Textures\Targets\Agent\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\2.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\3.png</Source>
+      <Name>Textures\Targets\Agent\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\3.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\4.png</Source>
+      <Name>Textures\Targets\Agent\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\4.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\5.png</Source>
+      <Name>Textures\Targets\Agent\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\5.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\6.png</Source>
+      <Name>Textures\Targets\Agent\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\6.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\7.png</Source>
+      <Name>Textures\Targets\Agent\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\7.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\8.png</Source>
+      <Name>Textures\Targets\Agent\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\8.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Agent\9.png</Source>
+      <Name>Textures\Targets\Agent\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Agent\9.xnb</Output>
+      <Time>2009-12-18T12:14:53.5444213+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Infection.mp3</Source>
+      <Name>Sounds\Infection</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Infection.xnb</Output>
+      <Time>2009-12-18T11:32:03.6306101+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\0.png</Source>
+      <Name>Textures\Targets\Bonus\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\0.xnb</Output>
+      <Time>2009-12-18T12:30:54.3686279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\1.png</Source>
+      <Name>Textures\Targets\Bonus\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\1.xnb</Output>
+      <Time>2009-12-18T12:30:54.3686279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\10.png</Source>
+      <Name>Textures\Targets\Bonus\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\10.xnb</Output>
+      <Time>2009-12-18T12:30:54.3686279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\11.png</Source>
+      <Name>Textures\Targets\Bonus\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\11.xnb</Output>
+      <Time>2009-12-18T12:30:54.3686279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\2.png</Source>
+      <Name>Textures\Targets\Bonus\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\2.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\3.png</Source>
+      <Name>Textures\Targets\Bonus\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\3.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\4.png</Source>
+      <Name>Textures\Targets\Bonus\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\4.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\5.png</Source>
+      <Name>Textures\Targets\Bonus\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\5.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\6.png</Source>
+      <Name>Textures\Targets\Bonus\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\6.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\7.png</Source>
+      <Name>Textures\Targets\Bonus\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\7.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\8.png</Source>
+      <Name>Textures\Targets\Bonus\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\8.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Targets\Bonus\9.png</Source>
+      <Name>Textures\Targets\Bonus\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Textures\Targets\Bonus\9.xnb</Output>
+      <Time>2009-12-18T12:30:54.3842279+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Bonus.mp3</Source>
+      <Name>Sounds\Bonus</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\Sounds\Bonus.xnb</Output>
+      <Time>2009-12-18T12:52:38.4615805+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Sam\Documents\Visual Studio 2008\Projects\GZK\GZK\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T01:16:14+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T01:16:06+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T01:16:16+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T01:16:26+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T01:16:12+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T01:16:06+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-11-12T11:18:08.2360138+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
